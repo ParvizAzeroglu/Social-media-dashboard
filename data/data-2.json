@@ -1,0 +1,60 @@
+[
+  {
+    "text": "Page Views",
+    "followers": "87",
+    "platform": "facebook",
+    "status": "up",
+    "statics": "3"
+  },
+
+  {
+    "text": "Likes",
+    "followers": "52",
+    "platform": "facebook",
+    "status": "down",
+    "statics": "2"
+  },
+
+  {
+    "text": "Likes",
+    "followers": "5462",
+    "platform": "instagram",
+    "status": "up",
+    "statics": "2257"
+  },
+  {
+    "text": "Profile Views",
+    "followers": "52k",
+    "platform": "instagram",
+    "status": "up",
+    "statics": "1375"
+  },
+  {
+    "text": "Retweets",
+    "followers": "117",
+    "platform": "twitter",
+    "status": "up",
+    "statics": "303"
+  },
+  {
+    "text": "Likes",
+    "followers": "507",
+    "platform": "twitter",
+    "status": "up",
+    "statics": "553"
+  },
+  {
+    "text": "Likes",
+    "followers": "107",
+    "platform": "youtube",
+    "status": "down",
+    "statics": "19"
+  },
+  {
+    "text": "Total Views",
+    "followers": "1407",
+    "platform": "youtube",
+    "status": "down",
+    "statics": "12"
+  }
+]

@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .text-area {
+} */
+
+.text-area > h1 {
+  font-weight: 700;
+  color: var(--text-2);
+}
+.text-area > p {
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.dark-mode {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.dark-mode p {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  font-weight: 700;
+}

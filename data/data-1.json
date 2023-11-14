@@ -1,0 +1,30 @@
+[
+  {
+    "platform": "facebook",
+    "id": "@nathanf",
+    "followers": "1987",
+    "statics": 12,
+    "status": "up"
+  },
+  {
+    "platform": "twitter",
+    "id": "@nathanf",
+    "followers": "1044",
+    "statics": 99,
+    "status": "up"
+  },
+  {
+    "platform": "instagram",
+    "id": "@realnathanf",
+    "followers": "11k",
+    "statics": 1099,
+    "status": "up"
+  },
+  {
+    "platform": "twitter",
+    "id": "@nathanf",
+    "followers": "8239",
+    "statics": 144,
+    "status": "down"
+  }
+]

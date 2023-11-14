@@ -1,0 +1,16 @@
+  const testData = {
+    platform: "instagram", // twitter, instagram, youtube
+    id: "@nathanf",
+    followers: "1987",
+    statics: "12",
+    status: "up",
+  };
+
+
+  {
+  platform,
+  id,
+  followers,
+  statics,
+  status,
+}
