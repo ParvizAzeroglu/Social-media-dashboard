@@ -1,5 +1,11 @@
 /* Social Media Item Component */
 
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
+
 .card {
   width: 280px;
   min-width: 200px;
@@ -7,6 +13,17 @@
   background-color: var(--card-bg);
   border-radius: 10px;
   border-top: 5px solid transparent;
+  transition: all 0.4s;
+}
+
+[theme-mode="dark"] .card:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+[theme-mode="light"] .card:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .card-header {

@@ -2,4 +2,11 @@
   min-height: 100vh;
   background-color: var(--bg);
   padding: 3rem 8rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 3rem 1rem;
+  }
 }

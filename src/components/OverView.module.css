@@ -6,6 +6,14 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .container > div {
   display: flex;
   width: 100%;
@@ -24,6 +32,17 @@
   background-color: var(--card-bg);
   border-radius: 10px;
   padding: 25px;
+  display: block;
+}
+
+[theme-mode="dark"] .card:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+[theme-mode="light"] .card:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .card-top {

@@ -1,5 +1,6 @@
 import styles from "./OverView.module.css";
 import data from "../../data/data-2.json";
+import { useIcon } from "../contexts/IconSelector";
 
 export default function OverView() {
   return (
@@ -22,11 +23,12 @@ export default function OverView() {
 }
 
 function OverViewItem({ text, followers, platform, status, statics }) {
+  const { iconSelecter } = useIcon();
   return (
     <div className={styles.card}>
       <div className={styles["card-top"]}>
         <p>{text}</p>
-        <img src="icon-facebook.svg" alt="" />
+        <img src={`${iconSelecter(platform)}`} alt="" />
       </div>
       <div className={styles["card-bottom"]}>
         <p>{text}</p>
